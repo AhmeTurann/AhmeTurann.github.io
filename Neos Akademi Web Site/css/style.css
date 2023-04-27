@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{
+    padding: 0;
+}
+body{
+    background: radial-gradient(circle,#000 0,#323232 100%);
+    
+}
+.navbar{
+    background:  radial-gradient(circle,#000 0,#323232 100%) !important;
+}
+.navbar .dropdown button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.h1-title{
+    color: white;
+    font-size: 26px;
+}
+.h2-title{
+    color: white;
+    font-size: 20px;
+}
+.h3-title{
+    color: white;
+    font-size: 20px;
+}
+.p-text{
+    color: white;
+}
+.p-text2{
+    color: white;
+}
+.p-text3{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.card-link{
+    text-decoration: none;
+}
+.text-img{
+    background: none;
+    width: 35px;
+}
+.nav-item .nav-link{
+    font-size: 13px !important;
+    letter-spacing: 2px;
+    color: white !important;
+}
+.nav-item .nav-link:hover{
+    color: #2596be !important;
+}
+.dropdown-menu{
+    background: black;
+}
+.dropdown-menu .dropdown-item{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: #2596be;
+    background: white;
+}
+.list-1{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+/* owl CAROUSEL */
+.owl-prev, .owl-next{
+    display: flex;
+    position: absolute;
+    transform: scale(2) !important;
+    background: #000000b9 !important;
+}
+.owl-prev{
+    top: 150px;
+    left: 50px;
+    color: white !important;
+}
+.owl-next{
+    top: 150px;
+    right: 50px;
+    color: white !important;
+}
+.owl-dot{
+    margin-top: 50px;
+}
+.owl-carousel{
+    padding: 50px;
+}
+/* owl CAROUSEL */
+.row{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.içerik{
+    color: #b9b9b9;
+    margin-left: 25px;
+}
+
+/* FOOTER */
+.p-text4{
+    color: white;
+    font-size: 16px;
+}
+.link-1{
+    list-style-type: none;
+}
+.tel{
+    color: white;
+    text-decoration: none;
+}
+.mail{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+.h4-title{
+    font-size: 16px;
+    color: white;
+}
+/* FOOTER */
